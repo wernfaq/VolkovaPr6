@@ -13,6 +13,7 @@ namespace VolkovaPr6
             Console.Write("Введите значения параметра x = ");
             string s = Console.ReadLine();
             double x = Convert.ToDouble(s);
+            double F = (Math.Sin(x) + Math.Cos(x) / 2);
         }
     }
 }
